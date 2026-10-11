@@ -150,7 +150,7 @@ const TREND_DATA = [
 
 export default function App() {
   const [selectedGhat, setSelectedGhat] = useState<GhatData>(GHATS_DATA[0]);
-  const backendUrl = 'https://environmental-operation-system-backend.onrender.com';
+  const backendUrl = 'https://environmental-operation-system-h41o.onrender.com';
   const [activeTab, setActiveTab] = useState<'matrix' | 'trends' | 'briefing'>('matrix');
   const [backendStatus, setBackendStatus] = useState<'online' | 'connecting' | 'standby'>('standby');
 
